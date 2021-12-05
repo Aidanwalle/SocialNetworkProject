@@ -1,3 +1,10 @@
 .descriptionBlock {
+    font-size: 16pt;
     padding: 10px;
 }
+
+.descriptionBlock img {
+    width: 70px;
+    border-radius: 10px;
+}
+
