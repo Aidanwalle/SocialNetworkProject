@@ -3,7 +3,8 @@
     display: grid;
     width: 1200px;
     grid-template-areas: "h h" "n c";
-    background-color: rgb(242,242,247);
+    /*background-color: rgb(242,242,247);*/
+    background-color: darkred;
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 5px;
