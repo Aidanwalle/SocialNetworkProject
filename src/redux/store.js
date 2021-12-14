@@ -11,7 +11,7 @@ let store = {
                 {id: 3, message: 'Blabla', likesCount: 11},
                 {id: 4, message: 'Dada', likesCount: 11}
             ],
-            newPostText: 'it-kamasutra.com'
+            newPostText: ''
         },
         dialogsPage: {
             dialogs: [
@@ -30,10 +30,10 @@ let store = {
         },
         sidebar: {}
     },
+
     _callSubscriber() {
         console.log('State changed');
     },
-
     getState() {
         debugger;
         return this._state;
