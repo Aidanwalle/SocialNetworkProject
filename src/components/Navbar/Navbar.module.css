@@ -12,7 +12,13 @@
     text-decoration: none;
 }
 
+.itemTest a {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+}
+
 .item a.activeLink {
-    color: black;
+    /*color: black;*/
     font-size: 16pt;
 }
