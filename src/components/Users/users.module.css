@@ -3,3 +3,8 @@
     width: 70px;
     height: 70px;
 }
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 14pt;
+}
